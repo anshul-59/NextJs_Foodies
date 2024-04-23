@@ -9,11 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mui/lab": "^5.0.0-alpha.165",
+    "@mui/material": "^5.15.10",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.16",
     "better-sqlite3": "^9.4.1",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
+    "react-loading": "^2.0.3",
     "slugify": "^1.6.6",
+    "styled-components": "^6.1.8",
     "xss": "^1.0.14"
   },
   "devDependencies": {

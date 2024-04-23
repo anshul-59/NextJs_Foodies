@@ -4,6 +4,13 @@ import Link from "next/link";
 import classes from "./page.module.css";
 import MealsGrid from "@/component/meals/meals-grid";
 import { getMeals } from "@/lib/meals";
+import CircularIndeterminate from "./loading-out";
+import Loading from "./loading-out";
+
+export const metadata = {
+  title: "All meals",
+  description: "Browse delecious meals.",
+};
 
 async function Meals() {
   const meals = await getMeals();
@@ -28,6 +35,8 @@ export default function MealsPage() {
       </header>
       <main className={classes.main}>
         <Suspense
+          // fallback={Loading(spin, white)}
+
           fallback={<p className={classes.loading}>Fetching meals...</p>}
         >
           <Meals />
