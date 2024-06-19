@@ -56,6 +56,3 @@ The owner of recipe can be reached by simply clicking on the name.
 
 ## Conclusion
 
-This YouTube clone project demonstrates how to build a modern web application using React, Redux Toolkit, TailwindCSS, and other libraries.
-The project includes several useful features, such as search suggestions, search caching, optimized search using debouncing and caching, optimized API calls using debouncing, comments section, and live chat.
-These features are not only useful for a YouTube clone but can be applied to any large-scale web application
